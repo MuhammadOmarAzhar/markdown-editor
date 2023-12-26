@@ -41,7 +41,9 @@ const MarkdownEditor = () => {
         </div>
         <Divider />
         <div className='p-4' ref={reactMarkdownRef}>
-          <ReactMarkdown remarkPlugins={[remarkGfm]}>{markdown}</ReactMarkdown>
+          <ReactMarkdown className='prose' remarkPlugins={[remarkGfm]}>
+            {markdown}
+          </ReactMarkdown>
         </div>
       </div>
     </div>

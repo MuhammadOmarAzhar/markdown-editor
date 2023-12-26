@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className='bg-gray-800 text-white'>
       <div className='flex items-center'>
-        <h1 className='uppercase text-2xl  px-4 font-bold'>Markdown Editor</h1>
+        <h1 className='uppercase text-2xl  p-4 font-bold'>Markdown Editor</h1>
       </div>
     </header>
   );
